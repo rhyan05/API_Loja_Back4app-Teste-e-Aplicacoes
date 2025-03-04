@@ -8,7 +8,7 @@ Para testes recomendo utilziar o Back4app, ele e um simplificador de back end em
 
 
 ## O que deve conter em banco
-Algumas colunas devem estar presentes no banco de dados
+Algumas colunas devem estar presentes no banco de dados, e tambem alguns exemplos para serem utilizados 
 
 ### _User
 - username -> String
@@ -51,8 +51,14 @@ Algumas colunas devem estar presentes no banco de dados
 ---
 
 # Utilizando a API
-Para utilizar e preciso instalar um testador de API, nesse caso utilizarei como exemplo o insominia, nele, caso optie por utilizar o *Back4app*, sera preciso utilizar a chave de aplicação de ID, em que pode ser encontrado apos cirar um novo APP e ir em App Settings> Secutity & Keys -> Application ID
+Para utilizar e preciso instalar um testador de API, nesse caso utilizarei como exemplo o insominia, nele, caso optie por utilizar o *Back4app*, sera preciso utilizar a chave de aplicação de ID, em que pode ser encontrado apos cirar um novo APP e ir em App Settings> Secutity & Keys -> Application ID.
+> Ele deve ser usado na parte *X-Parse-Application-Id*
+
+Nesta mesma pagina, tambem sera utilizado o *Rest API Key*
+> Deve ser usado na parte *X-Parse-REST-API-Key*
+
 A proxima chave pode ser acessada indo no seu perfil de usuario e acessando *Account Keys*, nela voce ira criar uma chave de autorização e acesso ao seu projeto 
+> Deve ser usado na parte *X-Parse-Session-Token*
 
 Apos isso voce podera fazer os testes e modificaçoes que quiser, recomendo utilizar como base para teste e estudo o site [Rest API Guide](https://docs.parseplatform.org/rest/guide/#creating-objects)
 
