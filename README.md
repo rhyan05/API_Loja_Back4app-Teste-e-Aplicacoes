@@ -62,3 +62,6 @@ A proxima chave pode ser acessada indo no seu perfil de usuario e acessando *Acc
 
 Apos isso voce podera fazer os testes e modificaçoes que quiser, recomendo utilizar como base para teste e estudo o site [Rest API Guide](https://docs.parseplatform.org/rest/guide/#creating-objects)
 
+## Arquivo Insomnia
+ O arquivo *Insomnia_prj_loja* contem alguns testes que você pode utilziar para aprender mais, como criar produtos, interligar eles com as marcas, reazlizar compras, deletar produtos e **muito mais**
+
