@@ -9,6 +9,7 @@ Para testes recomendo utilizar o Back4app, ele é um simplificador de back end q
 ### 📋 O que deve conter no banco
 
 Algumas colunas devem estar presentes no banco de dados, e também alguns exemplos para serem utilizados.
+Para criar essas colunas, apos ja ter criado um APP, você vera em verde escrito *row* e *column*, as colunas são os titulos das informções, então é ela que ira representar por exemplo, a coluna com o titulo de preço, enquanto as row são as informações, são os dados em sí
 
 #### 👤 _User
 - username -> String
