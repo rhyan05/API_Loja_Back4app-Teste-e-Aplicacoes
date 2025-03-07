@@ -2,6 +2,10 @@
 
 O objetivo deste repositório é mostrar a aplicação de um simples e-commerce, tendo abas de **Usuário, Marcas, Produtos e Compras**.
 
+# 🎥 Vídeo 
+Caso queria ver a aplicação dele na pratica, acesse o meu video do youtube:
+https://youtu.be/p6jmWljoNok
+
 ## 🗄️ Banco de dados
 
 Para testes recomendo utilizar o Back4app, ele é um simplificador de back end que permite criar aplicações simples mas poderosas.
