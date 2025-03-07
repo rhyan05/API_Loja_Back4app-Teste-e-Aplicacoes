@@ -1,4 +1,4 @@
-const Product = Parse.Object.extend("product"); // Corrigido para "product" com letra minúscula
+const Product = Parse.Object.extend("product"); 
 const Brand = Parse.Object.extend("Brand");
 
 Parse.Cloud.define("hello", (request) => {
@@ -33,7 +33,7 @@ Parse.Cloud.define("change-price", async (request) => {
   if (!request.params.price) throw new Error("Preço não informado");
 
   const product = new Product();
-  product.id = request.params.productId; // Corrigido
+  product.id = request.params.productId;
 
   product.set("price", request.params.price);
   const savedProduct = await product.save(null, { useMasterKey: true });
@@ -44,7 +44,7 @@ Parse.Cloud.define("delete-product", async (request) => {
   if (!request.params.productId) throw new Error("Produto não encontrado");
 
   const product = new Product();
-  product.id = request.params.productId; // Corrigido
+  product.id = request.params.productId;
 
   await product.destroy({ useMasterKey: true });
   return "Produto deletado com sucesso";
@@ -56,7 +56,7 @@ Parse.Cloud.define("get-product", async (request) => {
   const query = new Parse.Query(Product);
   query.include("brand");
 
-  const product = await query.get(request.params.productId, { useMasterKey: true }); // Corrigido
+  const product = await query.get(request.params.productId, { useMasterKey: true }); 
 
   const json = product.toJSON();
   return {
